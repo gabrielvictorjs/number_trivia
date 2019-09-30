@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
 import 'package:equatable/equatable.dart';
 
-import '../error/failures.dart';
+import '../error/failure.dart';
 
 abstract class UseCase<Type, Params> {
   // Parameters have to be put into a container object so that they can be
